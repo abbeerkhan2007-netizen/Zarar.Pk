@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background:#000;
+    color:white;
+    font-family:'Poppins',sans-serif;
+}
+
+
+header{
+    padding:20px 8%;
+    background:#000;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo{
+    font-size:32px;
+    font-family:'Cormorant Garamond',serif;
+    font-weight:bold;
+    color:#d4af37;
+}
+
+
+.logo span{
+    color:white;
+}
+
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+
+nav a:hover{
+    color:#d4af37;
+}
+
+
+
+.hero{
+
+height:80vh;
+
+background:
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.8)
+),
+url("images/hero.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+padding-left:8%;
+
+}
+
+
+
+.hero h1{
+
+font-family:'Cormorant Garamond',serif;
+font-size:70px;
+color:#d4af37;
+
+}
+
+
+.hero p{
+margin:20px 0;
+font-size:18px;
+}
+
+
+
+.btn{
+
+background:#d4af37;
+color:black;
+
+padding:12px 30px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+display:inline-block;
+
+}
+
+
+
+section{
+
+padding:70px 8%;
+
+}
+
+
+
+h2{
+
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#d4af37;
+
+}
+
+
+
+.collection-box,
+.products{
+
+display:flex;
+gap:25px;
+justify-content:center;
+
+}
+
+
+
+.collection-box div,
+.card{
+
+border:1px solid #d4af37;
+
+padding:40px;
+
+text-align:center;
+
+flex:1;
+
+}
+
+
+
+.card{
+
+background:#111;
+
+}
+
+
+
+.contact{
+
+text-align:center;
+
+}
+
+
+
+footer{
+
+text-align:center;
+
+padding:20px;
+
+border-top:1px solid #333;
+
+}
